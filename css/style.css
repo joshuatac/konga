@@ -907,15 +907,9 @@ body {
     margin-left: 0.9375rem;
   }
 }
-@media (max-width: 375px) {
-  .sponsored-products .sponsored-wrapper .sponsored-list {
-    margin: 0.46875rem;
-    width: 90% !important;
-  }
-}
 @media (max-width: 768px) {
   .sponsored-products .sponsored-wrapper .sponsored-list {
-    width: calc(52% - 1.875rem);
+    width: 90%;
     float: left;
     margin-left: 1.25rem;
     background-color: #fff;
@@ -942,7 +936,7 @@ body {
   }
 }
 .sponsored-products .sponsored-wrapper .sponsored-list .sponsored-link .sponsored-image {
-  width: 200px;
+  width: 150px;
 }
 @media (min-width: 768px) {
   .sponsored-products .sponsored-wrapper .sponsored-list .sponsored-link .sponsored-image {
