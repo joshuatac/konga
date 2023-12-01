@@ -917,12 +917,8 @@ flex-wrap: wrap;
         width: 100%/3;
         width: calc(33.33333% - 0.9375rem);
     }
-    @media(max-width:375px){
-        margin: 0.46875rem;
-        width: 90% !important;
-    }
     @media(max-width:768px){
-        width: calc(52% - 1.875rem);
+        width: 90%;
         float: left;
         margin-left: 1.25rem;
         background-color: #fff;
