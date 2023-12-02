@@ -806,8 +806,9 @@ padding: 0.625rem;
         -webkit-box-flex: 3;
         -ms-flex: 3;
         flex: 3;
-        margin: -0.625rem 0 -0.625rem 1.25rem;
+        margin:0.8rem 0 -0.625rem 1.25rem;        
         width: 30%;  
+
     }
     flex-wrap: wrap;
     display: flex;
@@ -821,7 +822,6 @@ padding: 0.625rem;
 @media (min-width:992px) {
     padding: 0.625rem;
 }
-
 flex: 0 50%;
 overflow: hidden;
 padding: 0.3125rem 0.3125rem 0.0625rem;
@@ -833,6 +833,8 @@ img{
     }
   
     max-width: 100%;
+    border-radius: 5px;
+
 }
 }
 
