@@ -773,14 +773,84 @@ a:hover {
 }
 
 
+.topSlide{
+    @media (min-width: 992px) {
+    min-height: 27.25rem;
+}
+@media (min-width: 768px) {
+padding: 1.25rem;
+}
+
+min-height: 31.25rem;
+padding: 0.625rem;
+
+
+.innerTop{
+
+    @media (max-width:768px) {
+        flex-direction: column; 
+    }
+    height: 100%; 
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+
+
+}
+}
+
+
+
+.InnerRight{
+    @media (min-width:992px) {
+        -webkit-box-flex: 3;
+        -ms-flex: 3;
+        flex: 3;
+        margin: -0.625rem 0 -0.625rem 1.25rem;
+        width: 30%;  
+    }
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.images_wrap{
+&:nth-child(odd){
+    padding-left: 0;
+}
+
+@media (min-width:992px) {
+    padding: 0.625rem;
+}
+
+flex: 0 50%;
+overflow: hidden;
+padding: 0.3125rem 0.3125rem 0.0625rem;
+width: 50%;
+img{
+    @media (min-width:992px){
+        height: 11.5rem;
+        width: 14.6875rem;  
+    }
+  
+    max-width: 100%;
+}
+}
+
 .slider-container {
-    width: 90%;
+    @media (min-width:992px) {
+        width: 70%;            
+    }
+    @media (max-width:768px) {
+        height: auto;
+    }
+    width: 100%;
+    height: 100%;
     margin: auto;
     overflow: hidden;
     position: relative;
     margin-top: 20px;
     cursor: pointer;
-    height: auto;
+   
 
 }
 
@@ -792,12 +862,19 @@ a:hover {
 }
 
 .slide {
-    height: 300px;
+
+    @media (max-width:768px) {
+        height: 200px;
+    }
+    height: 400px;
     width: 100%;
     min-width: 100%;
     background-size: cover;
     border-radius: 5px;
-    object-fit: contain;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    max-width: 61.25rem;
 }
 
 body {
